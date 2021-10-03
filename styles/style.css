@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 3.5rem;
+}
+
+.container {
+  width: 74vw;
+  margin: 0 auto;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.topCon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bottomCon {
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.158);
+  padding: 6rem 6rem 14rem ;
+  background-color: #fff;
+}
+img {
+  display: block;
+  width: 450px;
+}
+.text-heading {
+  font-size: 3rem;
+  margin-top: 0;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+p {
+  font-size: 1.9rem;
+}
+.top {
+  margin-top: 9.5rem;
+}
+.bottom {
+  margin-top: 2rem;
+}
+
+.form-heading {
+  text-align: left;
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+input {
+  display: block;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.342);
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 130px;
+  border: 2px solid rgba(0, 0, 0, 0.342);
+  border-radius: 0.5rem;
+  /* margin-bottom: 6rem; */
+}
+
+label {
+  display: block;
+  margin: 1.3rem 0 0.7rem 0 !important;
+  font-size: 2.2rem;
+}
+button {
+  float: right;
+  margin-top: 2rem;
+  background-color: #004de6;
+  border: none;
+  padding: 1.5rem 0;
+  width: 200px;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  
+}
+
+.stroke{
+    width: 15%;
+    height: 4px;
+    background-color: #D89616;
+    margin: 0 auto;
+    margin-top: .5rem;
+
+}
