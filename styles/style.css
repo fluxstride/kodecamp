@@ -42,7 +42,6 @@ h1 {
 }
 img {
   display: block;
-  width: 450px;
 }
 .text-heading {
   font-size: 3rem;
@@ -81,6 +80,10 @@ textarea {
   height: 130px;
   border: 2px solid rgba(0, 0, 0, 0.342);
   border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+
+
   /* margin-bottom: 6rem; */
 }
 
